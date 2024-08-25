@@ -1,0 +1,239 @@
+@media only screen and (max-width: 916px) {
+  header {
+    min-width: 375px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  header .logo svg {
+    margin-left: 1em;
+  }
+  header nav {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 100px;
+    filter: opacity(0);
+    background-color: hsl(270, 9%, 17%);
+    z-index: 100;
+  }
+  header nav ul {
+    padding-top: 3em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+  header nav ul li {
+    width: 90%;
+    height: 50px;
+    text-align: center;
+  }
+  header nav ul li a {
+    font-size: 1.4rem;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 98%);
+    transition: 500ms linear;
+  }
+  header nav ul li a:hover, header nav ul li a:focus {
+    letter-spacing: 10px;
+    transition: 500ms linear;
+  }
+  header nav ul .view-plans-btn {
+    width: 90%;
+    height: 60px;
+    font-size: 1.4rem;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 98%);
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 98%);
+    transition: 500ms ease-in-out;
+  }
+  header nav ul .view-plans-btn:hover, header nav ul .view-plans-btn:focus {
+    background-color: hsl(0, 0%, 100%);
+    transition: 500ms ease-in-out;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(256, 26%, 20%);
+    font-family: "DM Serif Display", serif;
+  }
+  header nav .nav-pattern {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  header nav .nav-pattern svg {
+    width: 100%;
+    height: 100%;
+  }
+  header .menu-button {
+    margin-right: 1em;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    z-index: 100;
+    right: 2%;
+  }
+  header .menu-button #close-menu {
+    display: none;
+  }
+  main {
+    height: auto;
+    display: block;
+  }
+  main .section-1 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  main .section-1 .section-1-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  main .section-1 .section-1-content .left-side {
+    padding: 5em 0 5em 0;
+    order: 2;
+    display: block;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+  }
+  main .section-1 .section-1-content .left-side h1 {
+    text-align: center;
+  }
+  main .section-1 .section-1-content .left-side p {
+    text-align: center;
+    margin-inline: 1em 1em;
+  }
+  main .section-1 .section-1-content .left-side .left-desktop-pattern {
+    display: none;
+  }
+  main .section-1 .section-1-content .left-side .left-mobile-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  main .section-1 .section-1-content .right-side {
+    order: 1;
+    display: block;
+  }
+  main .section-1 .section-1-content .right-side img {
+    width: 100%;
+    display: block;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .section-1 .section-1-content .right-side .right-desktop-pattern {
+    display: none;
+  }
+  main .section-1 .section-1-content .right-side .right-mobile-pattern {
+    position: absolute;
+    bottom: -200px;
+    right: 0;
+    z-index: 5;
+  }
+  main .section-2 h2 {
+    text-align: center;
+  }
+  main .section-2 .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .section-2 .cards .card {
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .section-2 .cards .card img {
+    width: 70px;
+    height: 70px;
+    display: block;
+  }
+  main .section-2 .cards .card p:nth-child(2), main .section-2 .cards .card p:nth-child(3) {
+    text-align: center;
+    margin-inline: 10% 10%;
+  }
+  main .section-2 .cards .card p:nth-child(2) {
+    font-size: 2rem;
+  }
+  main .section-2 .cards .card p:nth-child(3) {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+  main .section-3 .section-3-content {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    position: relative;
+  }
+  main .section-3 .section-3-content h3 {
+    font-size: 2.8rem;
+    text-align: center;
+    line-height: 55px;
+    font-weight: 400;
+  }
+  main .section-3 .section-3-content button {
+    width: 200px;
+    height: 50px;
+  }
+  main .section-3 .section-3-content .how-to-desktop-pattern {
+    display: none;
+  }
+  main .section-3 .section-3-content .how-to-mobile-pattern {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  footer {
+    height: 110vh;
+  }
+  footer .social-media {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    top: 5%;
+  }
+  footer .social-media .footer-logo {
+    width: 100%;
+    height: 100%;
+  }
+  footer .social-media .footer-logo svg {
+    margin-inline: auto auto;
+  }
+  footer .social-media ul {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  footer .footer-desktop-pattern {
+    display: none;
+  }
+  footer .footer-mobile-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}/*# sourceMappingURL=mobile.css.map */
